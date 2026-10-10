@@ -85,3 +85,10 @@ Os MIDI ficam em `Samples/`. Seus nomes registram família, tonalidade, BPM e se
 - `requirements.txt`: dependências Python.
 - `Samples/`: MIDI gerados pelo programa.
 
+## Uso de LLMs
+
+Para a criação do programa que gera músicas foram usadas duas IAs direfentes, Gemini e Claude.
+O uso delas foi feito iterativamente, a partir de um programa inicial que criei fui utilizando as IAs para melhorá-lo e para outras tarefas auxiliares como estração de arquivos midi das músicas do Ed Sheeran obtidas em: www.cprato.com.
+Links para as conversas com IAs:
+[Claude - Anthropic](https://claude.ai/share/c3ca1de0-65ff-40d4-9fe2-78388157d281)
+[Gemini - Google](https://share.gemini.google/scl2xyogQ5vG)
