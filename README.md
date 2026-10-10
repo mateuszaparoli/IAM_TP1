@@ -84,8 +84,4 @@ Os MIDI ficam em `Samples/`. Seus nomes registram família, tonalidade, BPM e se
 - `SongGenerator.py`: implementação do gerador e interface de linha de comando.
 - `requirements.txt`: dependências Python.
 - `Samples/`: MIDI gerados pelo programa.
-- `Report/`: fontes, imagens e PDF do relatório, mantidos localmente se excluídos pelo `.gitignore`.
-- `references_midi/`: MIDI de referência usados na análise de características musicais, mantidos localmente se excluídos pelo `.gitignore`.
-- `main_versions/`: versões anteriores do código, mantidas localmente se excluídas pelo `.gitignore`.
 
-As pastas `venv/`, `Report/`, `references_midi/` e `main_versions/` podem ser ignoradas pelo Git conforme a configuração local. Assim, elas não serão incluídas em um clone público; o gerador atual depende apenas de `SongGenerator.py` e das dependências instaladas. Os arquivos de referência e do relatório não são necessários para executar o programa.
